@@ -1,0 +1,113 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif; /* 元のフォントをそのまま使用 */
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6; /* 柔らかい背景色 */
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px 15px;
+  background-color: #ffffff; /* 白背景 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 微妙な影で立体感 */
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  color: #ff6347; /* ソフトな赤色でタイトルを強調 */
+  margin-bottom: 5px;
+}
+
+.header .subtitle {
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+.content {
+  line-height: 1.8;
+  margin-top: 15px;
+}
+
+.review h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: left;
+  border-left: 4px solid #ffa07a; /* 左側ラインでアクセント */
+  padding-left: 10px;
+  color: #444;
+}
+
+.review .intro {
+  background-color: #fffbe6; /* 容器の後ろに温かみのある淡い黄色 */
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 画像に影を追加 */
+}
+
+.image-container .caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.separator {
+  text-align: center;
+  color: #bbb;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.ratings {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #fffbe6; /* 温かい黄色背景でレビューセクションを強調 */
+  border-radius: 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ratings h2 {
+  font-size: 1.4rem;
+  color: #444;
+  border-left: 4px solid #ffa07a;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ratings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ratings li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.ratings span {
+  font-weight: bold;
+  color: #333;
+}
